@@ -27,7 +27,7 @@ jobs:
       run: flutter pub get
 
     - name: Build iOS App (No Sign)
-      run: flutter build ios --no-codesign # بناء التطبيق بدون الحاجة لحساب مطور مدفوع
+      run: flutter build ios --no-codesign 
 
     - name: Create IPA Directory
       run: |
